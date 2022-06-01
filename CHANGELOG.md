@@ -167,4 +167,5 @@ export class TreeviewConfig {
 ### Enhancement:
 
 - Upgrade to Angular 13
+- Upgrade to Bootstrap 4.6
 - Upgrade to new package-lock file
