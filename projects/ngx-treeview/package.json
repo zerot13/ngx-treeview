@@ -1,5 +1,5 @@
 {
-  "name": "@mkdev404/ngx-treeview",
+  "name": "@charmedme/ngx-treeview",
   "version": "1.0.0",
   "license": "MIT",
   "description": "An Angular treeview component with checkbox",

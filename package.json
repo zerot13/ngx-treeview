@@ -2,17 +2,16 @@
   "name": "angular-ngx-treeview",
   "version": "1.0.0",
   "license": "MIT",
+  "contributors": ["charmedme"],
   "description": "An Angular treeview component with checkbox",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build:lib": "ng build ngx-treeview",
     "build:demo": "ng build",
     "build": "ng-packagr -p ./projects/ngx-treeview/ng-package.json",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "deploy": "ng build --prod --base-href /ngx-treeview/ && node gh-pages.js"
+    "e2e": "ng e2e"
   },
   "private": true,
   "keywords": [
