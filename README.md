@@ -1,14 +1,13 @@
-# ngx-treeview [![Build Status](https://travis-ci.org/leovo2708/ngx-treeview.svg?branch=master)](https://travis-ci.org/leovo2708/ngx-treeview) [![npm version](https://badge.fury.io/js/ngx-treeview.svg)](https://badge.fury.io/js/ngx-treeview)
-
-An Angular treeview component with checkbox
+# ngx-treeview
+An Angular Bootstrap treeview component with checkboxes 
 
 ## Dependencies
 
 - [Angular](https://angular.io)
 - [Lodash](https://lodash.com)
-- [Bootstrap 4](https://getbootstrap.com)
+- [Bootstrap 5](https://getbootstrap.com)
 
-This component is currently supporting Bootstrap 4. If you are using Bootstrap 4 alpha 6, please downgrade to the older version 1.0.10.
+For Bootstrap 4, use [1.0.0](https://www.npmjs.com/package/@charmedme/ngx-treeview/v/1.0.0)
 
 You can customize CSS yourself to break down dependencies to Bootstrap.
 
@@ -21,16 +20,12 @@ You can customize CSS yourself to break down dependencies to Bootstrap.
 - Template
 - Checkbox with tri-state
 
-## Demo
-
-[https://leovo2708.github.io/ngx-treeview/](https://leovo2708.github.io/ngx-treeview/)
-
 ## Installation
 
 After install the above dependencies, install `ngx-treeview` via:
 
 ```shell
-npm install ngx-treeview --save
+npm i @charmedme/ngx-treeview --save
 ```
 
 Once installed you need to import our main module in your application module:

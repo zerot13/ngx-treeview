@@ -1,7 +1,10 @@
 {
   "name": "@charmedme/ngx-treeview",
-  "version": "1.0.0",
+  "version": "2.0.3",
   "license": "MIT",
+  "contributors": [
+    "Charmedme"
+  ],
   "description": "An Angular treeview component with checkbox",
   "keywords": [
     "ng",
@@ -16,7 +19,7 @@
     "recursive",
     "angular tree component"
   ],
-  "author": "Leo Vo <leovo2708@gmail.com>",
+  "author": "Charmedme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/charmedme/ngx-treeview.git"
@@ -27,7 +30,8 @@
   "peerDependencies": {
     "@angular/common": "^13.3.11",
     "@angular/core": "^13.3.11",
-    "lodash": "^4.0.0"
+    "lodash": "^4.0.0",
+    "bootstrap": "^5.0.0"
   },
   "dependencies": {
     "tslib": "^2.3.1"
