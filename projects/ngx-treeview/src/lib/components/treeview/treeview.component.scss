@@ -21,11 +21,11 @@
         margin-right: 0.3rem;
       }
     }
-  }
 
-  .treeview-row {
-    .treeview-col:last-child {
-      padding-left: 0;
+    .treeview-row-item {
+      .col {
+        padding-left: 0;
+      }
     }
   }
 }
