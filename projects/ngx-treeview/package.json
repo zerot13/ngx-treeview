@@ -16,7 +16,7 @@
     "recursive",
     "angular tree component"
   ],
-  "author": "Leo Vo <leovo2708@gmail.com>",
+  "author": "Charmedme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/charmedme/ngx-treeview.git"
@@ -27,7 +27,8 @@
   "peerDependencies": {
     "@angular/common": "^13.3.11",
     "@angular/core": "^13.3.11",
-    "lodash": "^4.0.0"
+    "lodash": "^4.0.0",
+    "bootstrap": "^5.2.0"
   },
   "dependencies": {
     "tslib": "^2.3.1"

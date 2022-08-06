@@ -29,7 +29,7 @@
       <label *ngIf="config.hasAllCheckBox" (click)="select(item)">
         <strong>{{ i18n.getAllCheckboxText() }}</strong>
       </label>
-      <label *ngIf="config.hasCollapseExpand" class="float-right" (click)="onCollapseExpand()">
+      <label *ngIf="config.hasCollapseExpand" class="float-end" (click)="onCollapseExpand()">
         <i [title]="i18n.getTooltipCollapseExpandText(item.collapsed)" aria-hidden="true" [ngSwitch]="item.collapsed">
           <svg *ngSwitchCase="true" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrows-angle-expand"
             fill="currentColor" xmlns="http://www.w3.org/2000/svg">
