@@ -6,8 +6,7 @@ An Angular treeview component with checkbox
 - [Lodash](https://lodash.com)
 - [Bootstrap 5](https://getbootstrap.com)
 
-This component is currently supporting Bootstrap ^5.2.
-For version 4, use 1.0.0 [@charmedme/ngx-treeview](https://www.npmjs.com/package/@charmedme/ngx-treeview/v/1.0.0)
+For Bootstrap 4, use [1.0.0](https://www.npmjs.com/package/@charmedme/ngx-treeview/v/1.0.0)
 
 You can customize CSS yourself to break down dependencies to Bootstrap.
 
