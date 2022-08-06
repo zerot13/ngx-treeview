@@ -1,6 +1,6 @@
 {
   "name": "@charmedme/ngx-treeview",
-  "version": "2.0.1",
+  "version": "2.0.3",
   "license": "MIT",
   "contributors": [
     "Charmedme"
@@ -11,6 +11,7 @@
     "start": "ng serve",
     "build:demo": "ng build",
     "build": "ng-packagr -p ./projects/ngx-treeview/ng-package.json",
+    "publish": "npm run build && npm publish --access public --folder .\\dist\\ngx-treeview\\",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

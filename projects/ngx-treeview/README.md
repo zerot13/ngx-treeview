@@ -1,4 +1,5 @@
-An Angular treeview component with checkbox
+# ngx-treeview
+An Angular Bootstrap treeview component with checkboxes 
 
 ## Dependencies
 
