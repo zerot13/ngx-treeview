@@ -6,8 +6,24 @@
 - Upgrade to Bootstrap 4.6
 - Upgrade to new package-lock file
 
-# [2.0.0](https://www.npmjs.com/package/@charmedme/ngx-treeview) (2022-06-02)
+# [2.0.0](https://www.npmjs.com/package/@charmedme/ngx-treeview) (2022-08-06)
 
 ### Enhancement:
 
 - Upgrade to Bootstrap 5
+
+# [2.0.4](https://www.npmjs.com/package/@charmedme/ngx-treeview) (2022-08-06)
+
+### Fixes:
+- Rollup fixes of 2.0.1...2.0.3
+- Fix an alignment issue with the a treeview when it has no children
+
+# [2.0.5](https://www.npmjs.com/package/@charmedme/ngx-treeview) (2022-08-09)
+
+### Enhancement:
+
+- Add an option to toggle between a compact view and the default view
+
+### Fixes:
+
+- Fix an alignment issue with the a treeview when it has no children
