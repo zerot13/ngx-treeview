@@ -19,7 +19,7 @@ export class BookComponent implements OnInit {
     hasCollapseExpand: true,
     decoupleChildFromParent: false,
     maxHeight: 400,
-    compact: false
+    compact: true
   });
 
   buttonClasses = [
