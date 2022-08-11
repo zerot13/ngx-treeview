@@ -1,4 +1,10 @@
 :host {
+
+.treeview-wrapper {
+  display: block;
+  margin-left: -.5rem;
+}
+
   .treeview-header {
     .row-filter {
       margin-bottom: 0.5rem;
@@ -12,6 +18,12 @@
   }
 
   .treeview-container {
+    & {
+      overflow-y: auto;
+      padding-right: 1rem;
+      padding-left: .5rem;
+    }
+    
     .row-item {
       margin-bottom: 0.3rem;
       flex-wrap: nowrap;
@@ -28,11 +40,6 @@
       }
     }
   }
-}
-
-.treeview-container {
-  overflow-y: auto;
-  padding-right: 1rem;
 }
 
 .treeview-text {
