@@ -72,7 +72,7 @@
     [ngTemplateOutletContext]="headerTemplateContext">
   </ng-template>
 </div>
-<div [ngSwitch]="hasFilterItems">
+<div [ngSwitch]="hasFilterItems" class="treeview-wrapper">
   <div *ngSwitchCase="true" class="treeview-container" [style.max-height.px]="maxHeight">
     <ngx-treeview-item *ngFor="let item of filterItems" [config]="config" [item]="item"
       [template]="itemTemplate || defaultItemTemplate" (checkedChange)="onItemCheckedChange(item, $event)">

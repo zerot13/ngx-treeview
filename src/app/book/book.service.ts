@@ -1,4 +1,3 @@
-import { Injectable } from '@angular/core';
 import { TreeviewItem } from 'ngx-treeview';
 
 export class BookService {
@@ -15,22 +14,28 @@ export class BookService {
         {
           text: 'Programming', value: 91, children: [{
             text: 'Frontend', value: 911, children: [
-              { text: 'Angular 1', value: 9111 },
-              { text: 'Angular 2', value: 9112 },
-              { text: 'ReactJS', value: 9113, disabled: true }
+              { text: 'Angular 11', value: 9113 , disabled: true},
+              { text: 'Angular 12', value: 9114, disabled: true },
+              { text: 'Angular 13', value: 9115 },
+              { text: 'Angular 14', value: 9116 },
+              { text: 'ReactJS', value: 9117, disabled: true },
+              { text: 'VueJS', value: 9118, disabled: true }
             ]
           }, {
             text: 'Backend', value: 912, children: [
               { text: 'C#', value: 9121 },
               { text: 'Java', value: 9122 },
-              { text: 'Python', value: 9123, checked: false, disabled: true }
+              { text: 'Python', value: 9123, checked: false, disabled: true },
+              { text: 'Go', value: 9124, checked: false, disabled: true }
             ]
           }]
         },
         {
           text: 'Networking', value: 92, children: [
             { text: 'Internet', value: 921 },
-            { text: 'Security', value: 922 }
+            { text: 'Security', value: 922 },
+            { text: 'Switches', value: 923 },
+            { text: 'Routers', value: 924 },
           ]
         }
       ]
@@ -41,7 +46,8 @@ export class BookService {
         { text: 'Science', value: 22 }
       ]
     });
+    const extraCategory = new TreeviewItem({ text: 'Extra', value: 3, checked: false, });
     const othersCategory = new TreeviewItem({ text: 'Others', value: 3, checked: false, disabled: true });
-    return [childrenCategory, itCategory, teenCategory, othersCategory];
+    return [childrenCategory, itCategory, teenCategory, extraCategory,othersCategory];
   }
 }
