@@ -21,7 +21,11 @@ You can customize CSS yourself to break down dependencies to Bootstrap.
 
 ## Status
  [![build](https://github.com/Charmedme/ngx-treeview/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/Charmedme/ngx-treeview/actions/workflows/npm-publish.yml)
+ [![pages-build-deployment](https://github.com/Charmedme/ngx-treeview/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/Charmedme/ngx-treeview/actions/workflows/pages/pages-build-deployment)
 [![NPM Version](https://img.shields.io/npm/v/@charmedme/ngx-treeview.svg)](https://www.npmjs.com/package/@charmedme/ngx-treeview)
+
+## Demo
+[https://charmedme.github.io/ngx-treeview/](https://charmedme.github.io/ngx-treeview)
 
 ## Installation
 
