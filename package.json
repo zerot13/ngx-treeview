@@ -9,12 +9,13 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build:demo": "ng build",
+    "build:demo": "ng build angular-ngx-treeview --aot --output-hashing=all",
     "build": "ng-packagr -p ./projects/ngx-treeview/ng-package.json",
     "publish": "npm run build && npm publish --access public --folder ./dist/ngx-treeview",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy": "npm run build:demo && node gh-pages.js"
   },
   "keywords": [
     "ng",
