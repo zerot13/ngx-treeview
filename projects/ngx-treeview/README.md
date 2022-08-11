@@ -1,6 +1,5 @@
 # ngx-treeview
-An Angular Bootstrap treeview component with checkboxes 
-
+An Angular Bootstrap treeview component with checkboxes
 ## Dependencies
 
 - [Angular](https://angular.io)
@@ -19,6 +18,10 @@ You can customize CSS yourself to break down dependencies to Bootstrap.
 - Internationalization (i18n) support
 - Template
 - Checkbox with tri-state
+
+## Status
+ [![build](https://github.com/Charmedme/ngx-treeview/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/Charmedme/ngx-treeview/actions/workflows/npm-publish.yml)
+[![NPM Version](https://img.shields.io/npm/v/@charmedme/ngx-treeview.svg)](https://www.npmjs.com/package/@charmedme/ngx-treeview)
 
 ## Installation
 
@@ -98,9 +101,10 @@ To map your JSON objects to TreeItem objects.
 
 #### Create a TreeviewItem:
 
-```js
-const itCategory = new TreeviewItem({
-  text: "IT",
+```ts
+const itCategory = new TreeviewItem(
+{
+  text: "Software",
   value: 9,
   children: [
     {
@@ -111,9 +115,11 @@ const itCategory = new TreeviewItem({
           text: "Frontend",
           value: 911,
           children: [
-            { text: "Angular 1", value: 9111 },
-            { text: "Angular 2", value: 9112 },
-            { text: "ReactJS", value: 9113 },
+            { text: "Angular 12", value: 9112 },
+            { text: "Angular 13", value: 9113 },
+            { text: "Angular 14", value: 9114 },
+            { text: "Angular 15", value: 9115, disabled: true },
+            { text: "ReactJS", value: 9120 },
           ],
         },
         {
@@ -127,21 +133,22 @@ const itCategory = new TreeviewItem({
         },
       ],
     },
-    {
-      text: "Networking",
-      value: 92,
-      children: [
-        { text: "Internet", value: 921 },
-        { text: "Security", value: 922 },
-      ],
-    },
+  ],
+},
+{
+  text: "Networking",
+  value: 92,
+  children: [
+    { text: "Internet", value: 921 },
+    { text: "Security", value: 922 },
+    { text: "Switches", value: 923 },
   ],
 });
 ```
 
 You can pass the second paramater 'autoCorrectChecked' with value=true (default is false) in constructor of TreeviewItem to correct checked value of it and all of its descendants. In some cases, you need to push or pop children flexibly, checked of parent may be not correct. Then you need to call function correctChecked() to help to correct from root to its descendants.
 
-```js
+```ts
 const vegetableCategory = new TreeviewItem({
   text: "Vegetable",
   value: 2,

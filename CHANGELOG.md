@@ -35,3 +35,11 @@
 ### Fixes:
 
 - Fix the checkbox focus border was cut-off due to an overflow on the treeview-container
+
+----------
+
+# [2.0.7](https://www.npmjs.com/package/@charmedme/ngx-treeview) (2022-08-11)
+
+### Enhancement:
+
+- Update readme
