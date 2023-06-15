@@ -19,7 +19,7 @@ export class CityService {
     if (location.hostname === 'localhost') {
       return of(cities as City[]);
     } else {
-      const url = 'https://raw.githubusercontent.com/charmedme/ngx-treeview/master/src/app/city/cities.json';
+      const url = 'https://raw.githubusercontent.com/zerot13/ngx-treeview/master/src/app/city/cities.json';
       return this.httpClient.get<City[]>(url);
     }
   }

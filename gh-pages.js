@@ -1,7 +1,7 @@
 const ghpages = require('gh-pages');
 
 ghpages.publish('dist/angular-ngx-treeview', {
-  repo: 'https://' + process.env.GH_TOKEN+ '@github.com/Charmedme/ngx-treeview.git'
+  repo: 'https://' + process.env.GH_TOKEN+ '@github.com/zerot13/ngx-treeview.git'
 }, function (err) {
   if (err) {
     console.log(err);

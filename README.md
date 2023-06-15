@@ -1,12 +1,10 @@
 # ngx-treeview
-An Angular Bootstrap treeview component with checkboxes
+An Angular Bootstrap treeview component
 ## Dependencies
 
 - [Angular](https://angular.io)
 - [Lodash](https://lodash.com)
-- [Bootstrap 5](https://getbootstrap.com)
-
-For Bootstrap 4, use [1.0.0](https://www.npmjs.com/package/@charmedme/ngx-treeview/v/1.0.0)
+- [Bootstrap 5.2](https://getbootstrap.com)
 
 You can customize CSS yourself to break down dependencies to Bootstrap.
 
@@ -14,31 +12,19 @@ You can customize CSS yourself to break down dependencies to Bootstrap.
 
 - Unlimited tree level
 - State: disabled / collapse, expand
-- Filtering
-- Internationalization (i18n) support
-- Template
-- Checkbox with tri-state
-
-## Status
- [![build](https://github.com/Charmedme/ngx-treeview/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/Charmedme/ngx-treeview/actions/workflows/npm-publish.yml)
- [![pages-build-deployment](https://github.com/Charmedme/ngx-treeview/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/Charmedme/ngx-treeview/actions/workflows/pages/pages-build-deployment)
-[![NPM Version](https://img.shields.io/npm/v/@charmedme/ngx-treeview.svg)](https://www.npmjs.com/package/@charmedme/ngx-treeview)
-
-## Demo
-[https://charmedme.github.io/ngx-treeview/](https://charmedme.github.io/ngx-treeview)
 
 ## Installation
 
 After install the above dependencies, install `ngx-treeview` via:
 
 ```shell
-npm i @charmedme/ngx-treeview --save
+npm i @zerot13/ngx-treeview --save
 ```
 
 Once installed you need to import our main module in your application module:
 
 ```js
-import { TreeviewModule } from 'ngx-treeview';
+import { TreeviewModule } from '@zerot13/ngx-treeview';
 
 @NgModule({
   declarations: [AppComponent, ...],
@@ -178,7 +164,3 @@ Extract data from list of checked TreeviewItem and send it in parameter of event
 #### Templating:
 
 See example 4 & 5.
-
-## Contributing
-
-I am very appreciate for your ideas, proposals and found bugs which you can leave in github issues. Thanks in advance!

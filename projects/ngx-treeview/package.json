@@ -1,11 +1,11 @@
 {
   "name": "@zerot13/ngx-treeview",
-  "version": "2.0.8",
+  "version": "13.0.0",
   "license": "MIT",
   "contributors": [
     "zerot13"
   ],
-  "description": "An Angular Boostrap treeview component with checkboxes",
+  "description": "An Angular Boostrap treeview component",
   "keywords": [
     "ng",
     "ngx",
@@ -30,8 +30,8 @@
   "peerDependencies": {
     "@angular/common": "^13.3.11",
     "@angular/core": "^13.3.11",
-    "lodash": "^4.0.0",
-    "bootstrap": "^5.0.0"
+    "bootstrap": "^5.2.0",
+    "lodash": "^4.0.0"
   },
   "dependencies": {
     "tslib": "^2.3.1"
