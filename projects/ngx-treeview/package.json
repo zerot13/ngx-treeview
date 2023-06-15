@@ -1,9 +1,9 @@
 {
-  "name": "@charmedme/ngx-treeview",
+  "name": "@zerot13/ngx-treeview",
   "version": "2.0.8",
   "license": "MIT",
   "contributors": [
-    "Charmedme"
+    "zerot13"
   ],
   "description": "An Angular Boostrap treeview component with checkboxes",
   "keywords": [
@@ -19,13 +19,13 @@
     "recursive",
     "angular tree component"
   ],
-  "author": "Charmedme",
+  "author": "zerot13",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/charmedme/ngx-treeview.git"
+    "url": "git+https://github.com/zerot13/ngx-treeview.git"
   },
   "bugs": {
-    "url": "https://github.com/charmedme/ngx-treeview/issues"
+    "url": "https://github.com/zerot13/ngx-treeview/issues"
   },
   "peerDependencies": {
     "@angular/common": "^13.3.11",
