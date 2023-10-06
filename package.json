@@ -1,6 +1,6 @@
 {
-  "name": "@zerot13/ngx-treeview",
-  "version": "13.0.0",
+  "name": "@treeview/ngx-treeview",
+  "version": "14.0.0",
   "license": "MIT",
   "contributors": [
     "zerot13"
@@ -75,5 +75,6 @@
     "ts-node": "~8.3.0",
     "tslint": "^6.1.3",
     "typescript": "~4.6.4"
-  }
+  },
+  "homepage": "https://github.com/zerot13/ngx-treeview#readme"
 }

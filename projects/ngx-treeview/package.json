@@ -1,6 +1,6 @@
 {
-  "name": "@zerot13/ngx-treeview",
-  "version": "13.0.0",
+  "name": "@treeview/ngx-treeview",
+  "version": "14.0.0",
   "license": "MIT",
   "contributors": [
     "zerot13"
@@ -28,12 +28,20 @@
     "url": "https://github.com/zerot13/ngx-treeview/issues"
   },
   "peerDependencies": {
-    "@angular/common": "^13.3.11",
-    "@angular/core": "^13.3.11",
+    "@angular/common": "^14.3.0",
+    "@angular/core": "^14.3.0",
     "bootstrap": "^5.2.0",
     "lodash": "^4.0.0"
   },
   "dependencies": {
     "tslib": "^2.3.1"
+  },
+  "homepage": "https://github.com/zerot13/ngx-treeview#readme",
+  "main": "src/public-api.ts",
+  "devDependencies": {
+    "@types/lodash": "^4.14.195"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
