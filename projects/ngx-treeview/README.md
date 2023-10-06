@@ -18,13 +18,13 @@ You can customize CSS yourself to break down dependencies to Bootstrap.
 After install the above dependencies, install `ngx-treeview` via:
 
 ```shell
-npm i @zerot13/ngx-treeview --save
+npm i @treeview/ngx-treeview --save
 ```
 
 Once installed you need to import our main module in your application module:
 
 ```js
-import { TreeviewModule } from '@zerot13/ngx-treeview';
+import { TreeviewModule } from '@treeview/ngx-treeview';
 
 @NgModule({
   declarations: [AppComponent, ...],

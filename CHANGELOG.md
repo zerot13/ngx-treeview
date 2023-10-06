@@ -1,4 +1,4 @@
-# [1.0.0](https://www.npmjs.com/package/@zerot13/ngx-treeview) (2023-06-15)
+# [14.0.0](https://www.npmjs.com/package/@treeview/ngx-treeview) (2023-06-15)
 
 ### Enhancement:
 
